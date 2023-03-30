@@ -1,0 +1,247 @@
+/* Estilos globais */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: black;
+  background-color: LightGrey;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.agendar a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+/* Estilos específicos da página principal */
+
+header {
+  background-color: yellow;
+  color: black;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.card button {
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.professor {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.professor img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #FFF;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.professor h3 {
+  font-size: 1.2em;
+  color: #FFF;
+  margin: 10px 0;
+}
+
+.professor p {
+  font-size: 0.9em;
+  color: black;
+}
+
+.redes-sociais {
+  margin-top: 10px;
+}
+
+.redes-sociais a {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  background-color: yellow;
+  margin-right: 10px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.redes-sociais a:hover {
+  background-color: black;
+  color: white;
+}
+
+.redes-sociais a:last-child {
+  margin-right: 0;
+}
+
+#visita-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#visita-form div {
+  margin-bottom: 10px;
+}
+
+#visita-form label {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+#visita-form input,
+#visita-form select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#visita-form select {
+  appearance: none;
+}
+
+#visita-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: yellow;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#visita-form button[type="submit"]:hover {
+  background-color: black;
+  color: yellow;
+}
+
+
+
+/* Estilo dos depoimentos */
+.depoimento {
+  margin-bottom: 40px;
+}
+
+.depoimento p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.depoimento .nome {
+  color: #000;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.depoimento .cargo {
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.depoimento img {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+}

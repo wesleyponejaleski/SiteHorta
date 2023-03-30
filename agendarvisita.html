@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Agendar Visita - Fazendinha Feliz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Fazendinha Feliz - CEMAG</h1>
+      <nav>
+        <ul>
+          <li><a href="home.html">Página Principal</a></li>
+          <li><a href="agendarvisita.html">Agendar Visita</a></li>
+          <li><a href="depoimentos.html">Depoimentos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Agende sua visita</h2>
+      <form id="visita-form" action="#">
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" required>
+        </div>
+        <div>
+          <label for="horario">Horário:</label>
+          <select id="horario" name="horario" required>
+            <option value="">Selecione um horário</option>
+            <option value="08:00">08:00</option>
+            <option value="09:00">09:00</option>
+            <option value="10:00">10:00</option>
+            <option value="11:00">11:00</option>
+            <option value="14:00">14:00</option>
+            <option value="15:00">15:00</option>
+            <option value="16:00">16:00</option>
+            <option value="17:00">17:00</option>
+          </select>
+        </div>
+        <div>
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+	<p>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11802.693959018967!2d-50.850308500000004!3d-24.6542977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e91201fa11ef83%3A0x3e15f77c16030010!2sCEMAG%20-%20C.%20E.%20Manoel%20Antonio%20Gomes%20-%20EFM!5e1!3m2!1spt-BR!2sbr!4v1680021848884!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+	</iframe>
+    </main>
+    <footer>
+      <p>CEMAG - C. E. Manoel Antonio Gomes - EFM</p>
+      <p>Rua José Soltovski, 633, Reserva - PR, 84320-000</p>
+      <p>Telefone: (42) 3276-1274</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
